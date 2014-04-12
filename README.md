@@ -21,6 +21,9 @@ or add
 
 to the require section of your `composer.json` file.
 
+and download kindeditor put it into of assets dir, Because there is no composer package for kindeditor
+
+
 #Usage
 ~~~~~~~~~~~~~
 <?=\djfly\kindeditor\KindEditor::widget([
