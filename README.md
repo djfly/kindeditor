@@ -32,4 +32,5 @@ composer
 #DOCUMENTATION
 
 https://github.com/kindsoft/kindeditor
+
 http://kindeditor.net/
