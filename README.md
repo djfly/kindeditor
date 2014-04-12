@@ -9,11 +9,11 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 
-php composer.phar require djfly/kindeditor "*"
+`php composer.phar require djfly/kindeditor "*"`
 or add
 
-"djfly/kindeditor": "*"
-to the require section of your composer.json file.
+`"djfly/kindeditor": "*"`
+to the require section of your `composer.json` file.
 
 
 #Usage
