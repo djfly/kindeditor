@@ -3,11 +3,11 @@ kindeditor
 
 kindeditor for yii2
 
-**install**
+#install
 composer
 
 
-**useful**
+#useful
 ~~~~~~~~~~~~~
 <?=\djfly\kindeditor\KindEditor::widget([
     'id' => 'post-content',
