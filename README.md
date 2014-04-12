@@ -3,6 +3,9 @@ kindeditor
 
 kindeditor for yii2
 
+**install**
+composer
+
 
 **useful**
 ~~~~~~~~~~~~~
@@ -11,7 +14,7 @@ kindeditor for yii2
     'model' => $model,
     'attribute' => 'content',
     'items' => [
-        'langType' => Yii::$app->language,
+        'langType' => Yii::$app->language, // 'en' , 'zh-CN'
         'height' => '300px',
         'themeType' => 'simple',
         'allowImageUpload'=>true,
@@ -20,8 +23,7 @@ kindeditor for yii2
             'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
             'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
             'insertunorderedlist', '|', 'emoticons', 'image', 'link',
-    ]
-        
+        ]
     ],
 ])?>
 ~~~~~~~~~~~~~
