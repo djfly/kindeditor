@@ -11,18 +11,18 @@ use yii\web\AssetBundle;
 
 class KindEditorAsset extends AssetBundle
 {
-	public $language;
     public $sourcePath = '@djfly/kindeditor/assets';
     public $js = [
         'kindeditor-min.js'
     ];
+
+    // kindeditor will autoload theme css and language js, if not Use the following code
     // public $css = [
     //     'themes/default/default.css','themes/simple/simple.css'
     // ];
     // public function registerAssetFiles($view)
     // {
-    //     $language = $this->language ? $this->language : Yii::$app->language;
-    //     $this->js[] = 'lang/' . $language . '.js';
+    //     $this->js[] = 'lang/' . Yii::$app->language . '.js';
     //     parent::registerAssetFiles($view);
     // }
 }
