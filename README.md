@@ -34,8 +34,10 @@ and download kindeditor put it into assets dir, Because there is no composer pac
         'langType' => Yii::$app->language, // 'en' , 'zh-CN'
         'height' => '300px',
         'themeType' => 'simple',
-        'allowImageUpload'=>true,
-        'allowFileManager'=>true,
+        'allowImageUpload' => true,
+        'allowFileManager' => true,
+        'uploadJson' => 'upload_json.php',
+        'fileManagerJson' => '../php/file_manager_json.php',
         'items' => [
             'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
             'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
