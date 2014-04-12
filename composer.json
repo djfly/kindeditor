@@ -1,7 +1,7 @@
 {
 	"name": "djfly/kindeditor",
 	"description": "kindeditor for yii2.",
-	"keywords": ["yii2", "kindeditor",],
+	"keywords": ["yii2", "kindeditor"],
 	"homepage": "https://github.com/djfly/kindeditor",
 	"type": "yii2-widget",
 	"license": "BSD-3-Clause",
