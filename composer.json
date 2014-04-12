@@ -1,0 +1,23 @@
+{
+	"name": "djfly/kindeditor",
+	"description": "kindeditor for yii2.",
+	"keywords": ["yii2", "kindeditor",],
+	"homepage": "https://github.com/djfly/kindeditor",
+	"type": "yii2-widget",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "djfly",
+			"email": "gitday@qq.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"djfly\\kindeditor\\": ""
+		}
+	}
+}
