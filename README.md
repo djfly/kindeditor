@@ -3,11 +3,20 @@ kindeditor
 
 kindeditor for yii2
 
-#install
-composer
+#Installation
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+php composer.phar require djfly/kindeditor "*"
+or add
+
+"djfly/kindeditor": "*"
+to the require section of your composer.json file.
 
 
-#seful
+#Usage
 ~~~~~~~~~~~~~
 <?=\djfly\kindeditor\KindEditor::widget([
     'id' => 'post-content',
@@ -31,6 +40,6 @@ composer
 
 #DOCUMENTATION
 
-https://github.com/kindsoft/kindeditor
+source https://github.com/kindsoft/kindeditor
 
-http://kindeditor.net/
+official kindeditor http://kindeditor.net/
